@@ -25,7 +25,8 @@ Fonksiyon içerisinde, axios kütüphanesi kullanılarak iki farklı API çağr�
 
 Bu iki API çağrısı sonucu elde edilen veriler, birleştirilerek aşağıdaki gibi bir obje olarak return edilir:
 
-'{
+```javascript
+{
   id: user_id,
   name: user_name,
   username: user_username,
@@ -38,5 +39,5 @@ Bu iki API çağrısı sonucu elde edilen veriler, birleştirilerek aşağıdaki
     },
     ...
   ]
-}'
+}
 
