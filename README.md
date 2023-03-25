@@ -5,7 +5,7 @@ Patika.dev linkim: "https://app.patika.dev/keremyvz"
 ## Açıklama
 
 Bu ödev, bir Node.js uygulamasında async/await yapısının kullanımını ve 'axios' kütüphanesiyle API çağrılarının nasıl yapılacağını öğrenmeyi amaçlamaktadır.
-
+![Ekran Görüntüsü](https://github.com/krmmyvz/fmss-odev1/blob/main/Console%20Output.png)
 ## Kurulum
 
 1. Bu uygulamayı klonlayın.
