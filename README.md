@@ -1,7 +1,7 @@
-# fmss-odev1
+# Node.js Uygulamam
 Patika.dev &amp; FMSS Bilişim Front-end Practicum Hafta 1 - 1. Ödev
 
-# My Node.js App
+## Açıklama
 
 Bu ödev, bir Node.js uygulamasında async/await yapısının kullanımını ve axios kütüphanesiyle API çağrılarının nasıl yapılacağını öğrenmeyi amaçlamaktadır.
 
