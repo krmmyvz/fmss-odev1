@@ -11,12 +11,6 @@ Bu ödev, bir Node.js uygulamasında async/await yapısının kullanımını ve 
 2. `npm install` komutunu çalıştırarak bağımlılıkları yükleyin.
 3. `node app.js` komutunu çalıştırarak konsol uygulamasını başlatın.
 
-## Kurulum
-
-1. Bu uygulamayı klonlayın.
-2. `npm install` komutunu çalıştırarak bağımlılıkları yükleyin.
-3. `node app.js` komutunu çalıştırarak konsol uygulamasını başlatın.
-
 ### Fonksiyon Açıklaması
 
 Bu ödevde, default olarak dışa aktarılan ve async olarak tanımlanan bir fonksiyon yazmanız gerekmektedir. Bu fonksiyon, Number tipinde bir parametre almalı ve bu parametre user id'yi belirtmelidir. Fonksiyonun görevi, verilen user id'ye göre ilgili kullanıcının verilerini ve post'larını API'dan çekerek, bu verileri birleştirip bir obje olarak return etmektir.
