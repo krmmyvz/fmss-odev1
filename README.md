@@ -21,7 +21,7 @@ Bu ödev, bir Node.js uygulamasında async/await yapısının kullanımını ve 
 
 Bu ödevde, default olarak dışa aktarılan ve async olarak tanımlanan bir fonksiyon yazmanız gerekmektedir. Bu fonksiyon, Number tipinde bir parametre almalı ve bu parametre user id'yi belirtmelidir. Fonksiyonun görevi, verilen user id'ye göre ilgili kullanıcının verilerini ve post'larını API'dan çekerek, bu verileri birleştirip bir obje olarak return etmektir.
 
-Fonksiyon içerisinde, axios kütüphanesi kullanılarak iki farklı API çağrısı yapılmaktadır. İlk olarak, user bilgileri için "https://jsonplaceholder.typicode.com/users/{user_id}" endpoint'i kullanılır. Burada, {user_id} yerine parametredeki user id değeri yazılmalıdır. İkinci olarak, ilgili kullanıcının post'ları için "https://jsonplaceholder.typicode.com/posts?userId={user_id}" endpoint'i kullanılır. Yine burada, {user_id} yerine parametredeki user id değeri yazılmalıdır.
+Fonksiyon içerisinde, axios kütüphanesi kullanılarak iki farklı API çağrısı yapılmaktadır. İlk olarak, user bilgileri için "https://jsonplaceholder.typicode.com/users/{user_id}" endpoint'i kullanılır. Burada, '{user_id}' yerine parametredeki user id değeri yazılmalıdır. İkinci olarak, ilgili kullanıcının post'ları için "https://jsonplaceholder.typicode.com/posts?userId={user_id}" endpoint'i kullanılır. Yine burada, '{user_id}' yerine parametredeki user id değeri yazılmalıdır.
 
 Bu iki API çağrısı sonucu elde edilen veriler, birleştirilerek aşağıdaki gibi bir obje olarak return edilir:
 
